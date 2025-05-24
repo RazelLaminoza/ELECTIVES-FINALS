@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+print("Matplotlib is working!")
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 
