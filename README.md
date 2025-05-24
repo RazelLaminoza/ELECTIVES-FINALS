@@ -15,7 +15,7 @@ st.write("Select a region and explore its future predictions.")
 # Dropdown to select a region
 selected_region = st.selectbox("🔍 Choose Region", df["Region"].unique())
 
-# Filter data for selected region
+# Filter data for selected regionS
 region_data = df[df["Region"] == selected_region]
 
 # Buttons for interactivity
